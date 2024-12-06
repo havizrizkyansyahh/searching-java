@@ -1,0 +1,32 @@
+Berikut adalah penjelasan tahap demi tahap proses pencarian biner (binary search) pada BinarySearch.java:
+Sebuah array arr yang berisi beberapa angka dideklarasikan.
+Variabel n yang mewakili angka yang akan dicari dalam array juga dideklarasikan.
+Fungsi binarySearch dipanggil dengan argumen array arr, indeks awal 0, indeks akhir arrLength - 1, dan angka yang dicari n.
+Hasil pencarian disimpan dalam variabel result.
+Jika hasil pencarian adalah -1, berarti angka tidak ditemukan di dalam array.
+Jika hasil pencarian bukan -1, berarti angka ditemukan dan indeks tempat angka tersebut berada ditampilkan.
+
+Proses Pencarian Biner secara Detail:
+Langkah Pertama:
+Inisialisasi: left = 0, right = 4, n = 68
+Menghitung mid: mid = 0 + (4 - 0) / 2 = 2
+Membandingkan arr[mid] dengan n:
+arr[2] = 48
+48 < 68, maka pencarian dilanjutkan ke bagian kanan: left = mid + 1 = 3
+
+Langkah Kedua:
+Inisialisasi: left = 3, right = 4
+Menghitung mid: mid = 3 + (4 - 3) / 2 = 3
+Membandingkan arr[mid] dengan n:
+arr[3] = 56
+56 < 68, maka pencarian dilanjutkan ke bagian kanan: left = mid + 1 = 4
+
+Langkah Ketiga:
+Inisialisasi: left = 4, right = 4
+Menghitung mid: mid = 4 + (4 - 4) / 2 = 4
+Membandingkan arr[mid] dengan n:
+arr[4] = 68
+68 == 68, elemen ditemukan pada indeks 4
+
+Hasil:
+Angka 68 ditemukan pada indeks 4 dalam array.

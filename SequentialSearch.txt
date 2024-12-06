@@ -1,0 +1,31 @@
+Berikut adalah penjelasan tahap demi tahap proses pencarian sequential (sequential search) yang terdapat dalam kode SequentialSearch.java:
+Sebuah array arr yang berisi beberapa angka dideklarasikan.
+Variabel n yang mewakili angka yang akan dicari dalam array juga dideklarasikan.
+Fungsi sequentialSearch dipanggil dengan argumen array arr dan angka yang dicari n.
+Hasil pencarian disimpan dalam variabel result.
+Jika hasil pencarian adalah -1, berarti angka tidak ditemukan di dalam array.
+Jika hasil pencarian bukan -1, berarti angka ditemukan dan indeks tempat angka tersebut berada ditampilkan.
+Fungsi sequentialSearch menerima array arr dan angka yang dicari n.
+Panjang array disimpan dalam variabel arrLength.
+Fungsi tersebut menggunakan loop for untuk mengiterasi setiap elemen dalam array.
+Pada setiap iterasi, elemen array diindeks i dibandingkan dengan angka yang dicari n.
+Jika elemen pada indeks i sama dengan angka yang dicari, indeks i dikembalikan sebagai hasil pencarian.
+Jika loop selesai tanpa menemukan angka yang dicari, fungsi mengembalikan -1, menandakan bahwa angka tersebut tidak ada dalam array.
+
+Proses Pencarian secara Detail:
+Langkah 1: 
+Memulai iterasi dari indeks 0 (angka 13).
+Membandingkan 13 dengan 31.
+Tidak sama, lanjut ke indeks berikutnya.
+
+Langkah 2: 
+Indeks 1 (angka 28).
+Membandingkan 28 dengan 31.
+Tidak sama, lanjut ke indeks berikutnya.
+
+Langkah 3: 
+Indeks 2 (angka 31).
+Membandingkan 31 dengan 31.
+Sama, fungsi mengembalikan indeks 2.
+
+Hasil: Angka 31 ditemukan pada indeks 2 dalam array.
